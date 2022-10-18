@@ -46,7 +46,7 @@ namespace nexus {
     photocathode_thickness_ (.1 * mm),
     visibility_(1),
     sd_depth_(-1),
-    binning_(100.*nanosecond)
+    binning_(25.*nanosecond)
   {
     msg_ = new G4GenericMessenger(this, "/Geometry/PmtR11410/",
 				  "Control commands of PmtR11410 geometry.");
